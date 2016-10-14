@@ -168,7 +168,7 @@ Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName
     250       7    19832      11900    48            2804 WmiPrvSE
 ```
 
-**--FileVersionInfo**
+**-FileVersionInfo**
 
 ```
 PS C:\Users\test> Get-Process -FileVersionInfo notepad
@@ -178,7 +178,7 @@ ProductVersion   FileVersion      FileName
 6.1.7600.16385   6.1.7600.1638... C:\Windows\system32\notepad.exe
 ```
 
-**--Id**
+**-Id**
 
 ```
 PS C:\Users\test> Get-Process -id 2176
@@ -188,7 +188,7 @@ Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName
      57       3      972       4080    55     0.03   2176 notepad
 ```
 
-**--IncludeUserName**
+**-IncludeUserName**
 
 ```
 PS C:\Users\test> Get-Process -IncludeUserName notepad
